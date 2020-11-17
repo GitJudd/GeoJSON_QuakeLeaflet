@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 { 
+  padding: 5px;
+  font-size: 14px; 
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: 400; 
+ }
+
+ul {
+  list-style-type: none;
+  padding-left:8px;
+  padding-top: 8px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.current {
+  text-decoration: overline underline;
+  text-decoration-style: wavy;
+  color: steelblue;
+  font-weight: 800;
+}
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.map-overlay {
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  }
+   
+  .map-overlay .map-overlay-inner {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  }
+   
+  .map-overlay h2 {
+  line-height: 24px;
+  display: block;
+  margin: 0 0 10px;
+  }
+   
+  .map-overlay .legend .bar {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(to right, #fca107, #7f3121);
+  }
+   
+  .map-overlay input {
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  cursor: ew-resize;
+  }
