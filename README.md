@@ -20,7 +20,7 @@ Visualize an earthquake data set similar to the provided sample above.
 
    ![3-Data](Images/3-Data.png)
 
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Pull the required JSON data from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page. 
+   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Pull the required JSON data from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page.
 
 Sample Data
    ![4-JSON](Images/4-JSON.png)
@@ -34,3 +34,5 @@ Sample Data
    * Data markers should reflect the magnitude of the earthquake by their size and and depth of the earth quake by color. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
 
    * Create a legend that will provide context for the map data.
+
+   * Only 2 years of data required - but more data is better as long as the load times are not heavily impacted. 
