@@ -36,3 +36,7 @@ Sample Data
    * Create a legend that will provide context for the map data.
 
    * Only 2 years of data required - but more data is better as long as the load times are not heavily impacted. 
+
+   ### Screenshot
+
+![Screenshot - large screen](Images/screenshot.png)
