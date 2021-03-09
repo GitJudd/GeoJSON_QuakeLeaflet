@@ -30,7 +30,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoianVkZGYiLCJhIjoiY2tmb2ppN2J4MDBqeTJxbXIyaTR1M
 
     map.on('load', function () {
         d3.json(
-            'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2021-01-01&endtime=2021-12-31&minmagnitude=5',
+            'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2021-01-01&endtime=2021-3-31&minmagnitude=5',
             function (err, data) {
                 if (err) throw err;
                 data.features = data.features.map(function (d) {
